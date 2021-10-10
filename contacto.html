@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <style>
+        #grad1 {
+          height: 100px;
+          background-color: rgba(0, 90, 12, 0.8); /* For browsers that do not support gradients */
+          background-image: linear-gradient(to top, rgb(0, 255, 34, 0.1), rgb(255, 255, 255), rgb(255, 255, 255));
+        }
+        </style>
+</head>
+<body>
+    <main>
+        <nav class="barraprincipal">
+            <a href='#' >CREAR CUENTA</a>
+            <a href='#' >INICIAR SESIÓN</a>
+    </nav>
+        <header class="header">
+            <div class="header__logo"> 
+                <img class="logo__img" src="../IMAGENES/logo.png" alt="imagen no disponible">
+            </div>
+        </header>
+
+        <nav>
+            <ul>
+             <li>
+                <a href="index.html">
+                   INICIO</a>
+            </li>
+            <li>
+                <a href="productos.html">
+                    PRODUCTOS</a>
+            </li>
+            <li>
+               <a href="contacto.html">
+             CONTACTO</a>
+            </li>
+            <li>
+                <a href="comocomprar.html"> 
+                   CÓMO COMPRAR</a>
+            </li>
+        <li>
+            <a href="preguntasfrecuentes.html">
+                PREGUNTAS FRECUENTES
+            </a>
+        </li>
+    </ul>
+     </nav>
+     <h1 class="contacto__texto"> CONTACTO </h1>
+     
+<form class="formulario__texto" action="/action_page.php">
+    <fieldset>
+    <br>
+    <br>
+  <label class="nombre__texto" for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label class="apellido__texto" for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label class="email__texto" for="email">Correo electronico</label><br>
+  <input type="email"><br><br>
+  <label class="number__texto" for="number">Telefono</label><br>
+  <input type="tel"><br><br>
+  <form action="">
+    <label class="mensaje__texto" for="mensaje">Mensaje:</label><br>
+<textarea id="Mensaje" name="Mensaje" rows="4" cols="50">
+</textarea><br><br>
+<input type="submit" value="Enviar">
+  <input type="reset" value="Limpiar filtros">
+  <br>
+  <br>
+</form>
+</fieldset>
+
+<div id="grad1"></div>
+     </main>
+</body>
+</html>
