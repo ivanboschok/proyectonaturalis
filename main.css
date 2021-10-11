@@ -1,6 +1,4 @@
-body {
-    background-image: url(https://cadenaser00.epimg.net/programa/imagenes/2015/01/20/ser_consumidor/1421749833_652308_1421750602_noticia_normal.jpg)
-}
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +7,6 @@ body {
 
 
 .logo__img {
-    background-color: rgb(255, 255, 255);
     width: 20%;
     display: block;
     margin: 0 auto}
@@ -52,7 +49,7 @@ body {
     }
 .envios__texto {
     color: rgb(255, 255, 255);
-    font-size: 80%;
+    font-size: 100%;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     text-align: center;
@@ -61,8 +58,6 @@ body {
         animation-name: aparecer;
         animation-iteration-count:inherit
      }
-     
-     
      @keyframes aparecer {
         0% {
           opacity: 0;
@@ -72,46 +67,125 @@ body {
         }
      }
      
-
 .portada__img {
     width: 100%;
     display: block;
     margin: 0 }
 
 .amba__texto {
-    color: white; 
-    background-color:  rgb(211, 102, 0);
-    text-align: center;}
-
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(211, 102, 0);
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count:inherit
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
     .amba2__texto {
-        color: white; 
-        background-color:  rgb(211, 102, 0);
-        text-align: center;}
-
+        color: rgb(255, 255, 255);
+        font-size: 80%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        text-align: center;
+        background-color: rgb(211, 102, 0);
+            animation-duration: 2s;
+            animation-name: aparecer;
+            animation-iteration-count:inherit
+         }
+         @keyframes aparecer {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+         }
 .caba__texto {
-        color: white; 
-        background-color:  rgb(211, 102, 0);
-        text-align: center;}    
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(211, 102, 0);
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count:inherit
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     } 
 .caba2__texto {
-    color: white; 
-    background-color:  rgb(211, 102, 0);
-    text-align: center;}
-
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(211, 102, 0);
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count:inherit
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 .pago__texto {
-    color: white; 
-    background-color:  rgb(211, 102, 0);
-    text-align: center;}
-
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(211, 102, 0);
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count:inherit
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 .mp__texto {
-    color: white; 
-    background-color:  rgb(211, 102, 0);
-    text-align: center;}
-
-
-
-
-
-
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(211, 102, 0);
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count:inherit
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
 .productos__texto {
     color: rgb(255, 255, 255);
     text-align: center;
@@ -119,28 +193,6 @@ body {
     font-weight: bolder;
     background-color: rgb(211, 102, 0);
 }
-
-.productosdestacados  {
-    color: rgb(255, 255, 255);
-    font-weight: bolder;
-    text-align: center;
-    display: flex;     
-    flex-direction: row;
-    justify-content: space-between;
-    width: 30%;
-    height: 300px; }
-
- .arvejas__tex { 
-   background-color: rgb(211, 102, 0);
-    }
-    .soja__tex {
-        background-color: rgb(211, 102, 0);
-    }
-    .lenteja__tex {
-        background-color: rgb(211, 102, 0);
-    }
-
-
     
 .contacto__texto {
     color: rgb(255, 255, 255);
@@ -152,34 +204,6 @@ body {
 .formulario__texto {
 
     text-align: center;
-}
-.nombre__texto {
-    color: white;
-    background-color:  rgb(0, 0, 0);
-    font-weight: bolder;
-}
-
-.apellido__texto {
-    color: white;
-    background-color:  rgb(0, 0, 0);
-    font-weight: bolder;
-}
-.email__texto {
-    color: white;
-    background-color:  rgb(0, 0, 0);
-    font-weight: bolder;
-}
-
-.number__texto {
-    color: white;
-    background-color:  rgb(0, 0, 0);
-    font-weight: bolder;
-}
-
-.mensaje__texto {
-    color: white;
-    background-color:  rgb(0, 0, 0);
-    font-weight: bolder;
 }
 .comocomprar__texto {
     color: rgb(255, 255, 255);
