@@ -92,15 +92,7 @@
         }
      }
     .amba2__texto {
-        color: rgb(255, 255, 255);
-        font-size: 80%;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: bold;
-        text-align: center;
-        background-color: rgb(211, 102, 0);
-            animation-duration: 2s;
-            animation-name: aparecer;
-            animation-iteration-count:inherit
+      @extend.amba__texto;
          }
          @keyframes aparecer {
             0% {
@@ -111,15 +103,7 @@
             }
          }
 .caba__texto {
-    color: rgb(255, 255, 255);
-    font-size: 80%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgb(211, 102, 0);
-        animation-duration: 2s;
-        animation-name: aparecer;
-        animation-iteration-count:inherit
+  @extend.amba__texto;
      }
      @keyframes aparecer {
         0% {
@@ -130,15 +114,7 @@
         }
      } 
 .caba2__texto {
-    color: rgb(255, 255, 255);
-    font-size: 80%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgb(211, 102, 0);
-        animation-duration: 2s;
-        animation-name: aparecer;
-        animation-iteration-count:inherit
+@extend.amba__texto;
      }
      @keyframes aparecer {
         0% {
@@ -149,15 +125,7 @@
         }
      }
 .pago__texto {
-    color: rgb(255, 255, 255);
-    font-size: 80%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgb(211, 102, 0);
-        animation-duration: 2s;
-        animation-name: aparecer;
-        animation-iteration-count:inherit
+    @extend.amba__texto;
      }
      @keyframes aparecer {
         0% {
@@ -168,15 +136,7 @@
         }
      }
 .mp__texto {
-    color: rgb(255, 255, 255);
-    font-size: 80%;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    background-color: rgb(211, 102, 0);
-        animation-duration: 2s;
-        animation-name: aparecer;
-        animation-iteration-count:inherit
+@extend.amba__texto;
      }
      @keyframes aparecer {
         0% {
@@ -187,11 +147,7 @@
         }
      }
 .productos__texto {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bolder;
-    background-color: rgb(211, 102, 0);
+   @extend.amba__texto
 }
     
 .contacto__texto {
@@ -206,11 +162,7 @@
     text-align: center;
 }
 .comocomprar__texto {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bolder;
-    background-color: rgb(211, 102, 0);
+  @extend .contacto__texto;
 }
 
 .informacion__texto {
@@ -220,11 +172,7 @@
     text-align: center;
 }
 .preguntasfrecuentes__texto {
-    color: rgb(255, 255, 255);
-    text-align: center;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: bolder;
-    background-color: rgb(211, 102, 0);
+    @extend.contacto__texto;
 }
 
 .comunicar__texto {
