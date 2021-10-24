@@ -1,0 +1,230 @@
+@import "variables"; 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo__img {
+    width: 20%;
+    display: block;
+    margin: 0 auto}
+    
+
+    ul {
+        list-style: none;
+        font-size: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+        width: 20%;
+        position:relative;
+    }
+    a {
+        font-size: 14px;
+        text-align: center;
+        display: block;
+        color: $color-principal;
+        background-color: rgb(4, 116, 38);
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: sans-serif;
+    }
+    a:hover {
+        background: rgb(22, 199, 16);
+    }
+    ul ul { position: absolute;
+    display: none;}
+    ul ul li {
+    width: 100%;
+    }
+    ul li:hover ul { 
+    display: block;
+    }
+    ul li:hover ul a:hover {
+        background-color: rgb(22, 199, 16);
+    }
+.envios__texto {
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(211, 102, 0);
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count:inherit
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+     
+.portada__img {
+    width: 100%;
+    display: block;
+    margin: 0 }
+
+.amba__texto {
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(211, 102, 0);
+        animation-duration: 2s;
+        animation-name: aparecer;
+        animation-iteration-count:inherit
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+    .amba2__texto {
+      @extend.amba__texto;
+         }
+         @keyframes aparecer {
+            0% {
+              opacity: 0;
+            }
+            100% {
+              opacity: 1;
+            }
+         }
+.caba__texto {
+  @extend.amba__texto;
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     } 
+.caba2__texto {
+@extend.amba__texto;
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+.pago__texto {
+    @extend.amba__texto;
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+.mp__texto {
+@extend.amba__texto;
+     }
+     @keyframes aparecer {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+     }
+.productos__texto {
+   @extend.amba__texto
+}
+    
+.contacto__texto {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bolder;
+    background-color: rgb(211, 102, 0);;
+}
+.formulario__texto {
+
+    text-align: center;
+}
+.comocomprar__texto {
+  @extend .contacto__texto;
+}
+
+.informacion__texto {
+    background-color: rgb(223, 146, 75);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.preguntasfrecuentes__texto {
+    @extend.contacto__texto;
+}
+
+.comunicar__texto {
+    background-color: rgb(223, 146, 75);
+    color: white;
+  font-weight: bolder;
+  text-align: center;
+}
+.subtitulo__texto {
+    background-color: rgb(223, 146, 75);
+    color: white;
+    font-size: 200%;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.datos__texto {
+    background-color:rgb(223, 146, 75);
+    color: white;
+    text-align: center;
+    font-size: 200%;
+}
+
+/* Top navigation bar */
+.barraprincipal {
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);}
+  
+  /* Topnav links */
+  .barraprincipal {
+    background-color: white;
+    display: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; }
+
+.btn-primary { 
+    font-size: 80%;
+}
+.card-title {
+    color: $color-secundario;
+}
+
+.card-text { 
+  color: $color-alerta;
+}
+  
+  @media screen and (min-width: 600px) {
+  .barraprincipal {
+      display: block;
+      width: 100%;
+  background-color: white;
+    }
+}
